@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Main</title>
+		<title>Contact</title>
 		
 		<style type="text/css">
 			html, 
@@ -60,9 +60,6 @@
 				height: 100px;
 				flex-grow: 2;
 			}
-			
-			
-			
 			.flex-container {
 				height: 100%;
 				margin-left: 100px;
@@ -82,6 +79,17 @@
 				background:white;
 				overflow: auto;
 			}
+			.flex-item-middle::-webkit-scrollbar {
+				width: 0.25rem;
+			}
+			.flex-item-middle::-webkit-scrollbar-track {
+				background: #faf9f4;
+			}
+			.flex-item-middle::-webkit-scrollbar-thumb {
+				background: #b3afac;
+			}
+			
+			
 			.main-content {
 				margin: 1rem;
 			}
@@ -89,14 +97,15 @@
 				color: #4c4c4c;
 				border-bottom: 1px solid #ebe6d0;
 			}
-			.profile-image img{
-				margin-top: 0.5rem;
-				margin-bottom: 0.5rem;
-				border-radius: 10px;
-				border: 1px solid #e3dbcc;
-				width: 100px;
-				height: 100px;
+			table, tr, td {
+			  letter-spacing: 1px;
+			  justify-content: center;
+			  padding: 10px;
 			}
+			td:active {
+			  color: #ff8c1a;
+			}
+
 			.paper-shadow-top-z-2 {
 			  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
@@ -189,11 +198,8 @@
 					margin-top: 30px;
 					margin-bottom: 30px;
 				}
+			
 			}
-			
-			
-			
-			
 			
 		</style>
 		
@@ -233,16 +239,36 @@
 			<div class="flex-item-middle paper-shadow-top-z-3 paper-shadow-bottom-z-3">
 				<div class="main-content">
 					<div class="main-subsections">
-						<h2>ABOUT ME</h2>
+						<h2>CONTACT</h2>
 					</div>
 					<div class="main-subsections">
-						<div class="profile-image">
-							<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEMwQctiKsASg/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=9yG5tYK6feRbpP1HARQtCO5E-kKt9c_pMFFOXhc7j1w">
-						</div>
-						<p>Hi, my name is Ian Ling.</p>
-						<p>I am currently a grad student at Northeastern University studying Computer Science.</p>
-						<p>My first master's degree is in Civil Engineering and Seismic Design.</p>
-						<p>Before this, I have worked as a Long-span Bridge Engineer and involved with many suspension bridges in New York City and Canada.</p>
+						
+						<table>
+							<tr>
+								<td>
+									Email
+								</td>
+								<td>
+									ling.xi@northeastern.edu
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Github Repo
+								</td>
+								<td>
+									https://github.ccs.neu.edu
+								</td>
+							</tr>
+							<tr>
+								<td>
+									LinkedIn
+								</td>
+								<td>
+									https://www.linkedin.com/in/ian-xi-ling-028a30195
+								</td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>

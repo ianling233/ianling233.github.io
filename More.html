@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Main</title>
+		<title>More About Me</title>
 		
 		<style type="text/css">
 			html, 
@@ -34,6 +34,7 @@
 			}
 			.nav-it {
 				height: 100px;
+				width: 100px;
 				border-bottom: 1px solid #e3dcca;
 				line-height: 100px;
 				text-align: center;
@@ -60,9 +61,6 @@
 				height: 100px;
 				flex-grow: 2;
 			}
-			
-			
-			
 			.flex-container {
 				height: 100%;
 				margin-left: 100px;
@@ -82,6 +80,17 @@
 				background:white;
 				overflow: auto;
 			}
+			.flex-item-middle::-webkit-scrollbar {
+				width: 0.25rem;
+			}
+			.flex-item-middle::-webkit-scrollbar-track {
+				background: #faf9f4;
+			}
+			.flex-item-middle::-webkit-scrollbar-thumb {
+				background: #b3afac;
+			}
+			
+			
 			.main-content {
 				margin: 1rem;
 			}
@@ -89,13 +98,22 @@
 				color: #4c4c4c;
 				border-bottom: 1px solid #ebe6d0;
 			}
-			.profile-image img{
-				margin-top: 0.5rem;
-				margin-bottom: 0.5rem;
-				border-radius: 10px;
+			.interest-item {
+				display: flex;
+			}
+			.interest-title {
+				padding-top: 10%;
+			    width: 20%;
+			    color: #ff8c1a;
+			}
+			.interest-content {
+				width: 80%;
+			}
+			.interest-content img {
+				margin: 0.5rem;
+				border-radius: 6px;
 				border: 1px solid #e3dbcc;
-				width: 100px;
-				height: 100px;
+				max-width: 500px;
 			}
 			.paper-shadow-top-z-2 {
 			  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -189,14 +207,22 @@
 					margin-top: 30px;
 					margin-bottom: 30px;
 				}
+				.interest-item {
+					display: block;
+				}
+				.interest-title {
+				    width: auto;
+				}
+				.interest-content {
+					width: auto;
+				}
+				.interest-content img {
+					width: 80%;
+				}
+			
 			}
 			
-			
-			
-			
-			
 		</style>
-		
 	</head>
 	<body>
 		<div class="navbar">
@@ -233,16 +259,39 @@
 			<div class="flex-item-middle paper-shadow-top-z-3 paper-shadow-bottom-z-3">
 				<div class="main-content">
 					<div class="main-subsections">
-						<h2>ABOUT ME</h2>
+						<h2>MORE ABOUT ME</h2>
 					</div>
 					<div class="main-subsections">
-						<div class="profile-image">
-							<img src="https://media-exp1.licdn.com/dms/image/C4D03AQEMwQctiKsASg/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=9yG5tYK6feRbpP1HARQtCO5E-kKt9c_pMFFOXhc7j1w">
+						<div class="interest-item">
+							<div class="interest-title">
+								<span>I love to be involve with every steps in Model Making</span>
+							</div>
+							<div class="interest-content">
+								<!-- <img src="https://pic2.zhimg.com/v2-cbca83f4af00f85ef840a6db884c990f_1440w.jpg" style="width:600px;">
+								<img src="https://pbs.twimg.com/media/EiaPiWVUYAMjS_X.jpg" style="width:300px;">
+								<img src="https://i.pinimg.com/564x/f7/ad/e4/f7ade42b58a400aec0f246301ed98d11.jpg" style="width:300px;">
+								<img src="https://i.pinimg.com/564x/3b/af/4b/3baf4b47e8c885ae18886c48de7946e9.jpg" style="width:300px;">
+								<img src="https://i.pinimg.com/564x/f5/9f/24/f59f24fcaf683412f8cafc4c16f20525.jpg" style="width:300px;"> -->
+								<img src="https://pic2.zhimg.com/v2-cbca83f4af00f85ef840a6db884c990f_1440w.jpg">
+								<img src="https://pbs.twimg.com/media/EiaPiWVUYAMjS_X.jpg">
+								<img src="https://i.pinimg.com/564x/f7/ad/e4/f7ade42b58a400aec0f246301ed98d11.jpg">
+								<img src="https://i.pinimg.com/564x/3b/af/4b/3baf4b47e8c885ae18886c48de7946e9.jpg">
+								<img src="https://i.pinimg.com/564x/f5/9f/24/f59f24fcaf683412f8cafc4c16f20525.jpg">
+							</div>
 						</div>
-						<p>Hi, my name is Ian Ling.</p>
-						<p>I am currently a grad student at Northeastern University studying Computer Science.</p>
-						<p>My first master's degree is in Civil Engineering and Seismic Design.</p>
-						<p>Before this, I have worked as a Long-span Bridge Engineer and involved with many suspension bridges in New York City and Canada.</p>
+					</div>
+					<div class="main-subsections">
+						<div class="interest-item">
+							<div class="interest-title">
+								<span>I really enjoy playing UFO Catcher and Gotcha when I visit Japan</span>
+							</div>
+							<div class="interest-content">
+								<!-- <img src="https://i.pinimg.com/564x/47/7d/5f/477d5f03be13a4a3209b7390fdbb9346.jpg" style="width:400px;">
+								<img src="https://i.pinimg.com/564x/3a/5b/90/3a5b90013b24a81191325c073d48707f.jpg" style="width:400px;"> -->	
+								<img src="https://i.pinimg.com/564x/47/7d/5f/477d5f03be13a4a3209b7390fdbb9346.jpg">
+								<img src="https://i.pinimg.com/564x/3a/5b/90/3a5b90013b24a81191325c073d48707f.jpg">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
