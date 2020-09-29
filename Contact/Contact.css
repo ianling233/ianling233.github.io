@@ -1,0 +1,6 @@
+table, tr, td {
+  justify-content: center;
+}
+td:active {
+  color: #ff8c1a;
+}

@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Works</title>
-		
-		<style type="text/css">
 			html, 
 			body {
 			    height: 100%;
@@ -62,6 +55,7 @@
 			}
 			
 			
+			
 			.flex-container {
 				height: 100%;
 				margin-left: 100px;
@@ -90,6 +84,7 @@
 			.flex-item-middle::-webkit-scrollbar-thumb {
 				background: #b3afac;
 			}
+			
 			
 			.main-content {
 				margin: 1rem;
@@ -122,7 +117,7 @@
 				    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 				    list-style: none;
 					display: flex;
-					font-size: 120%;
+					/* font-size: 120%; */
 				}
 				body {
 					background:#f7f3e8;		
@@ -194,82 +189,3 @@
 				}
 			
 			}
-		</style>
-		
-	</head>
-	<body>
-		<div class="navbar">
-			<div class="nav-flex">
-				<div class="nav-it-spacer-top">a</div>
-				<a href="./index">
-					<div class="nav-it">
-						<span>MAIN</span>
-					</div>
-				</a>
-				<a href="./Works">
-					<div class="nav-it">
-						<span>WORKS</span>
-					</div>
-				</a>
-				<a href="./More">
-					<div class="nav-it">
-						<span>MORE ABOUT ME</span>
-					</div>
-				</a>
-				<a href="./Contact">
-					<div class="nav-it">
-						<span>CONTACT</span>
-					</div>
-				</a>
-				<div class="nav-it-spacer-bottom">a</div>
-			</div>
-			
-		</div>
-		
-		<div class="flex-container">
-			<div class="flex-item-side">
-			</div>
-			<div class="flex-item-middle paper-shadow-top-z-3 paper-shadow-bottom-z-3">
-				<div class="main-content">
-					<div class="main-subsections">
-						<h2>EXPERIENCE</h2>
-					</div>
-					<div class="main-subsections">
-						<h3>WORK EXPERIENCE</h3>
-						<h4>Qualtrics</h4>
-						<h4>Software Engineeri Intern</h4>
-						<span>Works in Core Service team as a software engineer intern.</span>
-						<span>The team is building a lambda and workflow execution engine, which</span>
-						<span>is functional competitive to AWS Step Functions / Azure Logic Apps.</span>
-						<span>The stack consists primarily of React, Scala, Akka, and Python.</span>
-						<ul>
-							<li>
-								<span>Build React App which supports displaying, editing, validating, </span>
-								<span>and uploading the JSON workflow definition on an interactive diagram UI. </span>
-								<span>It also supports displaying the live status of each step in an uploaded workflow</span>
-							</li>
-							<li>Config Jenkins pipeline for the React App</li>
-							<li>Deployed the React App using Docker and Jenkins pipeline</li>
-							<li>Implemented backend CORS-enabled validation REST API in Scala Akka to validate a workflow definition</li>
-						</ul>	
-					</div>
-					<div class="main-subsections">
-						<h3>PROJECT</h3>
-						<h4>Blog</h4>
-						<span>Full-stack web application project</span>
-						<ul>
-							<li>Constructed a user interface in HTML and JavaScript, styled with CSS</li>
-							<li>Built a RESTful web service with Java and Apache Spark web framework.</li>
-							<li>Utilized NoSQL database MongoDB to store user data and user generated contents</li>
-							<li>Completed unit test and functional test to ensure the quality and reliability of the service</li>
-							<li>Deployed the web app with Heroku and Git</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="flex-item-side">
-			</div>
-		</div>
-		
-	</body>
-</html>

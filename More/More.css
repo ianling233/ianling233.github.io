@@ -1,0 +1,34 @@
+
+			.interest-item {
+				display: flex;
+			}
+			.interest-title {
+				padding-top: 10%;
+			    width: 20%;
+			    color: #ff8c1a;
+			}
+			.interest-content {
+				width: 80%;
+			}
+			.interest-content img {
+				margin: 0.5rem;
+				border-radius: 6px;
+				border: 1px solid #e3dbcc;
+				max-width: 500px;
+			}
+			
+			@media only screen and (max-width: 600px) {
+				.interest-item {
+					display: block;
+				}
+				.interest-title {
+				    width: auto;
+				}
+				.interest-content {
+					width: auto;
+				}
+				.interest-content img {
+					width: 80%;
+				}
+			
+			}
